@@ -1,1 +1,0 @@
-xsim {packedarraysim} -autoloadwcfg -runall

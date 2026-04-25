@@ -4,16 +4,16 @@ build:
 	@echo "*" > build/.gitignore 
 
 .PHONY: run
-#run_1:
-#	@make -s build
-#	@cd build && xvlog -sv ../packed_array_example.sv # xvlog is for linux system,and xvlog.exe for windows
-#	@cd build && xelab packed_array_example -s simulation
-#	@cd build && xsim simulation -runall
-
 run_1:
 	@make -s build
-	@cd build && xvlog -sv ../packed_array_2.sv # xvlog is for linux system,and xvlog.exe for windows
-	@cd build && xelab packed_array_2 -s simulation
+	@cd build && xvlog -sv ../packed_array_example.sv # xvlog is for linux system,and xvlog.exe for windows
+	@cd build && xelab packed_array_example -s simulation
+	@cd build && xsim simulation -runall
+
+run_2:
+	@make -s build
+	@cd build && xvlog -sv ../newpackedarray.sv # xvlog is for linux system,and xvlog.exe for windows
+	@cd build && xelab newpackedarray -s simulation
 	@cd build && xsim simulation -runall
 
 .PHONY: clean
