@@ -1,0 +1,27 @@
+#! /c/Source/iverilog-install/bin/vvp
+:ivl_version "12.0 (devel)" "(s20150603-1110-g18392a46)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision + 0;
+:vpi_module "V:\iverilog\iverilog\lib\ivl\system.vpi";
+:vpi_module "V:\iverilog\iverilog\lib\ivl\vhdl_sys.vpi";
+:vpi_module "V:\iverilog\iverilog\lib\ivl\vhdl_textio.vpi";
+:vpi_module "V:\iverilog\iverilog\lib\ivl\v2005_math.vpi";
+:vpi_module "V:\iverilog\iverilog\lib\ivl\va_math.vpi";
+:vpi_module "V:\iverilog\iverilog\lib\ivl\v2009.vpi";
+S_00000275845917e0 .scope package, "$unit" "$unit" 2 1;
+ .timescale 0 0;
+S_0000027584591970 .scope module, "packed_array_example" "packed_array_example" 3 1;
+ .timescale 0 0;
+L_0000027584477c28 .functor BUFT 1, C4<00010001001000100011001101000100>, C4<0>, C4<0>, C4<0>;
+v0000027584434b60_0 .net "byte_array_packed", 31 0, L_0000027584477c28;  1 drivers
+    .scope S_0000027584591970;
+T_0 ;
+    %vpi_call/w 3 10 "$display", "Byte 0 (packed): %h", &PV<v0000027584434b60_0, 0, 8> {0 0 0};
+    %end;
+    .thread T_0;
+# The file index is used to find the file name in the following table.
+:file_names 4;
+    "N/A";
+    "<interactive>";
+    "-";
+    "packed_array_example.sv";
