@@ -28,6 +28,26 @@ run_4:
 	@cd build && xelab array_methods -s simulation
 	@cd build && xsim simulation -runall
 
+run_5:
+	@make -s build
+	@cd build && xvlog -sv ../dynamic_array.sv 
+	@cd build && xelab dynamic_array -s simulation
+	@cd build && xsim simulation -runall
+
+run_6:
+	@make -s build
+	@cd build && xvlog -sv ../associative_arrays.sv 
+	@cd build && xelab associative_arrays -s simulation
+	@cd build && xsim simulation -runall
+
+run_7:
+	@make -s build
+	@cd build && xvlog -sv ../queue.sv 
+	@cd build && xelab queue -s simulation
+	@cd build && xsim simulation -runall
+
+
+
 
 .PHONY: clean
 clean:

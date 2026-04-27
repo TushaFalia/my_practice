@@ -1,23 +1,2 @@
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "V:/Git_Storage/my_practice/my_practice/array_methods.sv" into library work
-INFO: [VRFC 10-311] analyzing module array_methods
-ERROR: [VRFC 10-9466] unpacked array widths (1024 versus 6) do not match [V:/Git_Storage/my_practice/my_practice/array_methods.sv:23]
-ERROR: [VRFC 10-395] cannot assign an unpacked type to a packed type [V:/Git_Storage/my_practice/my_practice/array_methods.sv:24]
-ERROR: [VRFC 10-3493] invalid use of void function 'sort' [V:/Git_Storage/my_practice/my_practice/array_methods.sv:27]
-ERROR: [VRFC 10-395] cannot assign a packed type to an unpacked type [V:/Git_Storage/my_practice/my_practice/array_methods.sv:27]
-ERROR: [VRFC 10-2158] prefix of method size should be a dynamic array or associative array or queue [V:/Git_Storage/my_practice/my_practice/array_methods.sv:28]
-ERROR: [VRFC 10-3493] invalid use of void function 'rsort' [V:/Git_Storage/my_practice/my_practice/array_methods.sv:29]
-ERROR: [VRFC 10-395] cannot assign a packed type to an unpacked type [V:/Git_Storage/my_practice/my_practice/array_methods.sv:29]
-ERROR: [VRFC 10-3493] invalid use of void function 'reverse' [V:/Git_Storage/my_practice/my_practice/array_methods.sv:30]
-ERROR: [VRFC 10-395] cannot assign a packed type to an unpacked type [V:/Git_Storage/my_practice/my_practice/array_methods.sv:30]
-ERROR: [VRFC 10-395] cannot assign an unpacked type to a packed type [V:/Git_Storage/my_practice/my_practice/array_methods.sv:32]
-ERROR: [VRFC 10-395] cannot assign an unpacked type to a packed type [V:/Git_Storage/my_practice/my_practice/array_methods.sv:33]
-ERROR: [VRFC 10-395] cannot assign an unpacked type to a packed type [V:/Git_Storage/my_practice/my_practice/array_methods.sv:36]
-ERROR: [VRFC 10-395] cannot assign an unpacked type to a packed type [V:/Git_Storage/my_practice/my_practice/array_methods.sv:37]
-WARNING: [VRFC 10-3205] cannot select 'reduce' inside 'unpacked_array' due to dimension mismatch [V:/Git_Storage/my_practice/my_practice/array_methods.sv:38]
-ERROR: [VRFC 10-2158] prefix of method sort should be an unpacked array [V:/Git_Storage/my_practice/my_practice/array_methods.sv:43]
-ERROR: [VRFC 10-2158] prefix of method size should be a dynamic array or associative array or queue [V:/Git_Storage/my_practice/my_practice/array_methods.sv:44]
-ERROR: [VRFC 10-2158] prefix of method rsort should be an unpacked array [V:/Git_Storage/my_practice/my_practice/array_methods.sv:45]
-ERROR: [VRFC 10-2158] prefix of method reverse should be an unpacked array [V:/Git_Storage/my_practice/my_practice/array_methods.sv:46]
-ERROR: [VRFC 10-2158] prefix of method sum should be an unpacked array [V:/Git_Storage/my_practice/my_practice/array_methods.sv:47]
-ERROR: [VRFC 10-2158] prefix of method min should be an unpacked array [V:/Git_Storage/my_practice/my_practice/array_methods.sv:48]
-INFO: [#UNDEF] Sorry, too many errors..
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "V:/Git_Storage/my_practice/my_practice/queue.sv" into library work
+INFO: [VRFC 10-311] analyzing module queue
