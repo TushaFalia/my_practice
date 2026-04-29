@@ -44,7 +44,6 @@ run_7:
 	@make -s build
 	@cd build && xvlog -sv ../queue.sv 
 	@cd build && xelab queue -s simulation
-	
 	@cd build && xsim simulation -runall
 
 
