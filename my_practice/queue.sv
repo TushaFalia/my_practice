@@ -16,6 +16,12 @@ initial begin
 
   transaction_q.push_front(5); // Add to front
   $display("Queue size: %0d", transaction_q.size()); // Check queue size
+  $display("Whole queue: %p", transaction_q); 
+
+  foreach (transaction_q[i]) transaction_q[i] = $urandom_range(1,10); // Modify all elements in the queue 
+  $display("Whole queue: %p", transaction_q); 
+  
+
 end
 
 

@@ -46,8 +46,17 @@ run_7:
 	@cd build && xelab queue -s simulation
 	@cd build && xsim simulation -runall
 
+run_8:
+	@make -s build
+	@cd build && xvlog -sv ../multidimension_array.sv 
+	@cd build && xelab multidimension_array -s simulation 
+	@cd build && xsim simulation -runall
 
-
+run_9:
+	@make -s build
+	@cd build && xvlog -sv ../casez_example.sv 
+	@cd build && xelab casez_example -s simulation 
+	@cd build && xsim simulation -runall
 
 .PHONY: clean
 clean:
